@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		852999162979AEDB00665313 /* TemperatureConverterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852999152979AEDB00665313 /* TemperatureConverterApp.swift */; };
-		852999182979AEDB00665313 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852999172979AEDB00665313 /* ContentView.swift */; };
 		8529991A2979AEE300665313 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 852999192979AEE300665313 /* Assets.xcassets */; };
 		8529991D2979AEE300665313 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8529991C2979AEE300665313 /* Preview Assets.xcassets */; };
+		852999262979AF3500665313 /* CelsiusToFahrenheit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852999252979AF3500665313 /* CelsiusToFahrenheit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		852999122979AEDB00665313 /* TemperatureConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemperatureConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		852999152979AEDB00665313 /* TemperatureConverterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureConverterApp.swift; sourceTree = "<group>"; };
-		852999172979AEDB00665313 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		852999192979AEE300665313 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8529991C2979AEE300665313 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		852999252979AF3500665313 /* CelsiusToFahrenheit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelsiusToFahrenheit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				852999152979AEDB00665313 /* TemperatureConverterApp.swift */,
-				852999172979AEDB00665313 /* ContentView.swift */,
+				852999242979AF0C00665313 /* Views */,
 				852999192979AEE300665313 /* Assets.xcassets */,
 				8529991B2979AEE300665313 /* Preview Content */,
 			);
@@ -65,6 +65,14 @@
 				8529991C2979AEE300665313 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		852999242979AF0C00665313 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				852999252979AF3500665313 /* CelsiusToFahrenheit.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				852999182979AEDB00665313 /* ContentView.swift in Sources */,
 				852999162979AEDB00665313 /* TemperatureConverterApp.swift in Sources */,
+				852999262979AF3500665313 /* CelsiusToFahrenheit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
